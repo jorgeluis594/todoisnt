@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "../App.css"
 import Circle from "../images/circle.png";
 import Delete from "../images/delete.png";
-import {  CircleChecked, IconDelete } from "./icons";
+import {  CircleChecked } from "./icons";
 
 export default function Task({task, updateTask, DeleteTask}){
     const [edit, setEdit] = useState({
